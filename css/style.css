@@ -21,4 +21,11 @@ img{
     position: relative;
     height: 100px;
     width: 100px;
+    animation-name: teste;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+@keyframes teste{
+    0%{top: 0px}
 }
