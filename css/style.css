@@ -21,11 +21,34 @@ img{
     position: relative;
     height: 100px;
     width: 100px;
+    top:-796px;
+    left: 1150px;
     animation-name: teste;
-    animation-duration: 3s;
+    animation-duration: 20s;
     animation-delay: 2s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes teste{
-    0%{top: 0px}
+    0%{top:-796px; left: 1150px;}
+    5%{top: -595px; left: 1150px;}
+    10%{top: -595px; left: 1050px;}
+    15%{top: -395px; left: 1050px;}
+    20%{top: -395px; left: 1150px;}
+    25%{top: -195px; left: 1150px;}
+    30%{top: -195px; left: 1050px;}
+    35%{top: -295px; left: 1050px;}
+    40%{top: -295px; left: 1250px;}
+    45%{top: -95px; left: 1250px;}
+    50%{top: -95px; left: 1150px;}
+    55%{top: -95px; left: 1250px;}
+    60%{top: -295px; left: 1250px;}
+    65%{top: -295px; left: 1050px;}
+    70%{top: -195px; left: 1050px;}
+    75%{top: -195px; left: 1150px;}
+    80%{top: -395px; left: 1150px;}
+    85%{top: -395px; left: 1050px;}
+    90%{top: -595px; left: 1050px;}
+    95%{top: -595px; left: 1150px;}
+    100%{top:-796px; left: 1150px;}
 }
